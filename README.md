@@ -5,7 +5,7 @@ Emu8086 simülatörü üzerinde çalışacak şekilde 16-bit x86 Assembly mimari
 
 Yüksek seviyeli programlama dillerinde kolayca yapılabilen matris yönetimi, özyinelemeli fonksiyonlar ve ekrana çizim işlemlerinin, doğrudan bellek adresleri ve register'lar kullanılarak donanıma en yakın seviyede nasıl inşa edildiğini göstermeyi amaçlamaktadır.
 
-## 🚀 Temel Özellikler
+##  Temel Özellikler
 
 * **Gelişmiş Bellek Yönetimi (Direct Memory Access):** Oyun ekranı ve grafikler doğrudan Video RAM (0B800h) üzerine ofset hesaplamalarıyla yazılarak oluşturulmuştur.
 * **Özyinelemeli (Recursive) Algoritma:** Etrafında mayın olmayan (0 değerli) bir boş hücre açıldığında, `open_recursive` fonksiyonu Stack (Yığın) yapısını (PUSH/POP) kullanarak bağlı tüm güvenli alanları zincirleme olarak tek hamlede açar.
